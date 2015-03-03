@@ -1,0 +1,15 @@
+{
+  "name": "functional-aliases",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "./node_modules/babel/bin/babel/index.js index.js --out-file dist/bundle.js",
+    "test": "./node_modules/mocha/bin/mocha --compilers js:./preprocessor.js ./test"
+  },
+  "author": "Joe Hsu",
+  "license": "MIT",
+  "devDependencies": {
+    "mocha": "^2.1.0"
+  }
+}
